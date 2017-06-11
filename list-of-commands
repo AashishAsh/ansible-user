@@ -1,0 +1,3 @@
+ansible-playbook -s site.yml
+ansible-playbook sonarqube.yml --syntax-check
+sudo ansible-playbook global-playbook.yml --extra-vars "user=vagrant"

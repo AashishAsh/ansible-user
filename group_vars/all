@@ -1,0 +1,25 @@
+---
+users:
+  - username: amaduri
+    name: Devops - Aashish Maduri
+    groups: ['root']
+    uid: 4008
+    home: /home/amaduri
+#    profile: |
+#      alias ll='ls -lah'
+    ssh_key:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAuVtJwDnzm0lkagpxnHSIc7N8bLiNYV+ys92n7pLVQy0ANwGjRgLtfKcxAKGCZ+mWfWxbal9C/iPDMyhw/heoD0HrbBNaobcOalKlHNVkvAwR2/Vkmhi7e4BOltniEo/AbQvSL0OQx/0qawJU5D5gBnP7vGx5LmblcbXt0utNHygjQaVFOeIf2uWg5cIM+1M61FuoGS1x03KoXSAIstBSz6n8i+zLRnlEL3tdffh4ISWW0EcJvNEWKbjC2H2TeQDPoW6QHwqu5xA4Y4ssfaRz4lZ1gYyaTtdqrbikk2Ss1fK1KyHSwSN2jegbGzPIINImBGL9M13luSvlkn2Fxwlfow== amaduri@Smiley"
+
+
+
+groups_to_create:
+  - name: gsdevops
+    gid: 4000
+
+
+
+
+users_deleted:
+  - username: bar
+    name: Bar User
+    uid: 1002
